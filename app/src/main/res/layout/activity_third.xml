@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_test5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:text="注册"
+        android:layout_marginTop="150dp"
+
+        />
+
+    <EditText
+        android:layout_width="423dp"
+        android:layout_height="wrap_content"
+        android:maxLength="15"
+        android:hint="请输入您的用户名"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:hint="请输入您的密码"
+        />
+
+    <EditText
+        android:layout_width="438dp"
+        android:layout_height="wrap_content"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:hint="请再次输入您的密码"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:text="确认注册"
+        />
+
+
+
+
+
+</LinearLayout>
